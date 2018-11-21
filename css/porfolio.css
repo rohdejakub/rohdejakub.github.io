@@ -1,0 +1,57 @@
+.portfolio{
+    background-color: whitesmoke;
+    height: 100%;
+}
+.gallery{
+    margin: 2rem 0;
+}
+.gallery-item{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin: 2rem;
+}
+.gallery-item__img{
+    width: 100%;
+    
+}
+.gallery-item:nth-child(even) .gallery-item__label{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(152, 76, 67, 0.9);
+    transition: 0.5s height;
+}
+.gallery-item:nth-child(odd) .gallery-item__label{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background-color: hsla(195, 22%, 18%, 0.9);
+    transition: 0.5s height;
+}
+.gallery-item:hover .gallery-item__label{
+    height: 50%;
+}
+.gallery-item:hover .gallery-item__img{
+    mix-blend-mode: luminosity;
+}
+@media only screen and (min-width: 768px){
+    .gallery{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .gallery-item{
+        width: 30%;
+        margin: 2rem 0;
+        
+    
+    }
+    .gallery-item__img{
+        width:100%;
+        
+        height: auto;
+    }
+}

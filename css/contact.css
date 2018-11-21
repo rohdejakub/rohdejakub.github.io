@@ -1,0 +1,19 @@
+.contact{
+    margin: 0;
+    text-align: center;
+    padding-top: 0;
+}
+.contact__links i{
+    font-size: 4rem;
+    margin: 1rem;
+}
+.contact__links a{
+    color: whitesmoke;
+    transition: 0.5s opacity;
+}
+.contact__links a:hover{
+    opacity: 0.5;
+}
+.contact__links a:visited{
+    color: whitesmoke;
+}

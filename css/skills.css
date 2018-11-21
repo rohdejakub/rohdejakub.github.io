@@ -1,0 +1,31 @@
+
+
+.skills i {
+    font-size: 10rem;
+    transition: color 0.5s, opacity 0.5s;
+    padding: 1rem;
+}
+
+.skills__items {
+    margin: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skills__items .fa-html5:hover {
+    color: #e44d26;
+}
+
+.skills__items .fa-css3-alt:hover {
+    color: #3699d6;
+}
+
+.skills__items .fa-js:hover {
+    color: #edda4f;
+}
+
+.skills__items .fa-github:hover {
+    color: whitesmoke;
+    opacity: 0.5;
+}
