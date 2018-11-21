@@ -46,12 +46,12 @@
     .gallery-item{
         width: 30%;
         margin: 2rem 0;
-        
+        height: 350px;
     
     }
     .gallery-item__img{
         width:100%;
-        
+        height: 100%;
         height: auto;
     }
 }
